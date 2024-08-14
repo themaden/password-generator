@@ -1,0 +1,26 @@
+.App {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #f0f0f0;
+   }
+   
+   @media (max-width: 768px) {
+     .App {
+       padding: 10px;
+       text-align: left;
+     }
+   
+     button {
+       width: 100%;
+       padding: 15px;
+     }
+   
+     input {
+       width: 100%;
+       padding: 10px;
+       margin-top: 10px;
+     }
+   }
+   
